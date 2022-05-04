@@ -1,11 +1,39 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Solft Skills
-    </ion-title>
+    <ion-title> Solft Skills </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-card class="card_soft">
+    <ion-card-content class="desc">
+      <img
+        class="foto"
+        src="https://blog.portalpos.com.br/app/uploads/2021/11/soft-skills.jpg"
+        alt=""
+      />
+      <p class="esc">Você sabe o que são Soft Skills e a importância a qual elas tem no mercado
+      de trabalho? Se não sabe, aqui você pode saber mais sobre elas.</p>
+    </ion-card-content>
+  </ion-card>
 
+  <ion-accordion-group class="lista_oq">
+    <ion-accordion value="colors">
+      <ion-item slot="header">
+        <ion-label>Para Saber Mais:</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+        <ion-item routerLink="/descricao-soft">
+          <ion-label>O Que São Sofl Skills</ion-label>
+        </ion-item>
+        <ion-item routerLink="/demandadas">
+          <ion-label>Soft Skills Mais Demandadas</ion-label>
+        </ion-item>
+        <ion-item routerLink="/importancia">
+          <ion-label>Importância das Soft Skills</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>
