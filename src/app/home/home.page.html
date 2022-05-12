@@ -17,20 +17,20 @@
 
       <h1>Para saber mais</h1>
       <ion-fab vertical="start" horizontal="start" slot="fixed" class="mais">
-        <ion-fab-button>
-          <ion-icon name="share"></ion-icon>
+        <ion-fab-button color="azul">
+          <ion-icon color="light" name="information-outline"></ion-icon>
         </ion-fab-button>
         <ion-fab-list side="top">
           <ion-fab-list side="top">
-            <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+            <ion-fab-list side="top">
+              <ion-fab-button routerLink="/descricao-soft" id="oq" color="azul"><p class="abas">O que São</p></ion-fab-button>
+            </ion-fab-list>
+            <ion-fab-button routerLink="/demandadas" id="deman" color="azul"><p class="abas">Mais Demandadas</p></ion-fab-button>
           </ion-fab-list>
-          <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+          <ion-fab-button routerLink="/exemplos" id="exem" color="azul"><p class="abas">Alguns Exemplos</p></ion-fab-button>
         </ion-fab-list>
         <ion-fab-list side="end">
-          <ion-fab-list side="end">
-            <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
-          </ion-fab-list>
-          <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+          <ion-fab-button routerLink="/avaliar" id="avali" color="azul"><p class="abas">Como Avaliar</p></ion-fab-button>
         </ion-fab-list>
       </ion-fab>
     </ion-card-content>

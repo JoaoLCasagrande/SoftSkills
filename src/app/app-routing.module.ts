@@ -22,6 +22,14 @@ const routes: Routes = [
     path: 'importancia',
     loadChildren: () => import('./importancia/importancia.module').then( m => m.ImportanciaPageModule)
   },
+  {
+    path: 'exemplos',
+    loadChildren: () => import('./exemplos/exemplos.module').then( m => m.ExemplosPageModule)
+  },
+  {
+    path: 'avaliar',
+    loadChildren: () => import('./avaliar/avaliar.module').then( m => m.AvaliarPageModule)
+  },
 
 ];
 
