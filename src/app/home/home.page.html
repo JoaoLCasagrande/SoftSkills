@@ -6,4 +6,35 @@
 
 <ion-content [fullscreen]="true">
 
+  <ion-card class="card_soft">
+    <ion-card-content class="desc">
+      <img
+        class="foto"
+        src="https://blog.portalpos.com.br/app/uploads/2021/11/soft-skills.jpg"
+        alt=""
+      />
+      <p class="esc">Você sabe o que são Soft Skills e a importância a qual elas tem no mercado
+      de trabalho? Se não sabe, aqui você pode saber mais sobre elas.</p>
+
+      <h1>Para saber mais</h1>
+      <ion-fab vertical="start" horizontal="start" slot="fixed" class="mais">
+        <ion-fab-button color="azul">
+          <ion-icon color="light" name="information-outline"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="top">
+          <ion-fab-list side="top">
+            <ion-fab-list side="top">
+              <ion-fab-button routerLink="/descricao-soft" id="oq" color="azul"><p class="abas">O que São</p></ion-fab-button>
+            </ion-fab-list>
+            <ion-fab-button routerLink="/exemplos" id="deman" color="azul"><p class="abas">Alguns Exemplos</p></ion-fab-button>
+          </ion-fab-list>
+          <ion-fab-button routerLink="/demandadas" id="exem" color="azul"><p class="abas">Mais Demandadas</p></ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="end">
+          <ion-fab-button routerLink="/avaliar" id="avali" color="azul"><p class="abas">Como Avaliar</p></ion-fab-button>
+        </ion-fab-list>
+      </ion-fab>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
