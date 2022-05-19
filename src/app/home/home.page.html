@@ -4,6 +4,25 @@
   </ion-toolbar>
 </ion-header>
 
+
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="azul-claro">
+      <ion-title>Start Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item routerLink="/descricao-soft" >O que São Soft Skills</ion-item>
+      <ion-item routerLink="/exemplos">Alguns Exemplos</ion-item>
+      <ion-item routerLink="/demandadas">Mais Demandadas</ion-item>
+      <ion-item routerLink="/avaliar">Como Avaliar</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-router-outlet id="main"></ion-router-outlet>
+
 <ion-content [fullscreen]="true">
 
   <ion-card color="light" class="card_soft">
@@ -17,23 +36,7 @@
       de trabalho? Se não sabe, aqui você pode saber mais sobre elas.</p>
 
       <h1>Para saber mais</h1>
-      <ion-fab vertical="start" horizontal="start" slot="fixed" class="mais">
-        <ion-fab-button color="azul">
-          <ion-icon color="light" name="information-outline"></ion-icon>
-        </ion-fab-button>
-        <ion-fab-list side="top">
-          <ion-fab-list side="top">
-            <ion-fab-list side="top">
-              <ion-fab-button routerLink="/descricao-soft" id="oq" color="azul"><p class="abas">O que São</p></ion-fab-button>
-            </ion-fab-list>
-            <ion-fab-button routerLink="/exemplos" id="deman" color="azul"><p class="abas">Alguns Exemplos</p></ion-fab-button>
-          </ion-fab-list>
-          <ion-fab-button routerLink="/demandadas" id="exem" color="azul"><p class="abas">Mais Demandadas</p></ion-fab-button>
-        </ion-fab-list>
-        <ion-fab-list side="end">
-          <ion-fab-button routerLink="/avaliar" id="avali" color="azul"><p class="abas">Como Avaliar</p></ion-fab-button>
-        </ion-fab-list>
-      </ion-fab>
+      <div class="men" (click)="openFirst()">+</div>
     </ion-card-content>
   </ion-card>
 
