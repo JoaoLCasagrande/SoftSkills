@@ -10,7 +10,8 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },  {
+  },
+  {
     path: 'descricao-soft',
     loadChildren: () => import('./descricao-soft/descricao-soft.module').then( m => m.DescricaoSoftPageModule)
   },
@@ -34,7 +35,6 @@ const routes: Routes = [
     path: 'diferencas',
     loadChildren: () => import('./diferencas/diferencas.module').then( m => m.DiferencasPageModule)
   },
-
 ];
 
 @NgModule({

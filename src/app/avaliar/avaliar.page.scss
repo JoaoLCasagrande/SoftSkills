@@ -14,17 +14,23 @@ ion-title{
 
 .card_soft{
   margin-top: 36px;
-  height: 1140px;
-}
-
-.item_lista{
-  font-size: 20px;
-  color: #b90101;
-  font-weight: bold;
+  height: 330px;
 }
 
 .desc_soft{
   font-size: 16px;
   color: #000000;
   text-align: justify;
+}
+
+.ava{
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  border: #000000 6px solid;
+  padding: 5px;
+  border-radius: 10px;
 }
