@@ -6,6 +6,16 @@ ion-title{
   font-size: 18px;
 }
 
+#hard-tit{
+  font-size: 30px;
+  color: #ff0000;
+}
+
+#soft-tit{
+  font-size: 30px;
+  color: #ff0000;
+}
+
 .int{
   color: #000000;
   font-size: 20px;
@@ -13,14 +23,13 @@ ion-title{
 }
 
 .card_soft{
-  margin-top: 36px;
-  height: 700px;
+  height: 350px;
+  margin-bottom: 200px;
 }
 
-.item_lista{
-  font-size: 20px;
-  color: #b90101;
-  font-weight: bold;
+.card_soft-soft{
+  height: 380px;
+  margin-bottom: 200px;
 }
 
 .desc_soft{
@@ -29,13 +38,42 @@ ion-title{
   text-align: justify;
 }
 
-.titu{
-  font-size: 18px;
-  color: #b90101;
-  font-weight: bold;
+ion-icon{
+  font-size: 30px;
+}
+
+.hard{
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.soft{
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+#esq{
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+#dir{
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
 ion-slides {
   height: 100%;
-  background-color: #b90101;
+}
+
+#slide-1 {
+  background-image: url(https://galvaminas.com.br/wp-content/uploads/2019/10/cropped-blog-5-ferramentas-manuais-que-nao-podem-faltar-na-sua-casa.jpg);
+}
+
+#slide-2 {
+  background-image: url(https://i.pinimg.com/236x/63/1a/03/631a03ad015db0c590747e484d230ea8.jpg);
+}
+
+#slide-3 {
+  background-image: url(https://i.pinimg.com/564x/93/82/46/9382467381eac1177d5eb96bdc96b7b5.jpg);
 }

@@ -9,14 +9,52 @@
 
 <ion-content>
   <ion-slides pager="true" [options]="slideOpts">
-    <ion-slide>
-      <h1>Slide 1</h1>
+    <ion-slide id="slide-1">
+      <ion-card color="light" class="card_soft">
+        <ion-card-content>
+          <h1 id="hard-tit">Hard Skills</h1>
+          <p class="int">
+            Além das soft skills, também são avaliadas pelos recrutadores as
+            chamadas hard skills. Nessa categoria, enquadram-se as habilidades
+            técnicas do candidato, como a capacidade de operar uma máquina, o
+            nível de proficiência em algum software ou os conhecimentos
+            específicos em determinada área de atuação.
+          </p>
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
-    <ion-slide>
-      <h1>Slide 2</h1>
+
+    <ion-slide id="slide-2">
+      <ion-card color="light" class="card_soft">
+        <ion-card-content>
+          <p class="int">
+            Agora vamos explicar a seguinte questão: Qual a diferença entre Hard
+            Skills e Soft Skills?<br />
+            Aqui vai a definição de cada uma:
+          </p>
+
+          <ion-icon id="esq" name="arrow-back-outline"></ion-icon>
+          <p class="hard">Hard Skills</p>
+
+          <ion-icon id="dir" name="arrow-forward-outline"></ion-icon>
+          <p class="soft">Soft Skills</p>
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
-    <ion-slide>
-      <h1>Slide 3</h1>
+
+    <ion-slide id="slide-3">
+      <ion-card color="light" class="card_soft-soft">
+        <ion-card-content>
+          <h1 id="soft-tit">Soft Skills</h1>
+          <p class="int">
+            A soft skills se referem a habilidades comportamentais relacionadas
+            a maneira como uma pessoa lida com o outro, ou seja, como funciona a
+            interação dela em grupos e como ela lida com suas
+            próprias emoções. Ou seja, enquanto Hard skills são habilidades técnicas, as Soft Skills
+            "habilidades emocionais", morais e éticas.
+          </p>
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
   </ion-slides>
 </ion-content>
