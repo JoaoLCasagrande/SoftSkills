@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./diferencas.page.scss'],
 })
 export class DiferencasPage implements OnInit {
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
 
   constructor() { }
 

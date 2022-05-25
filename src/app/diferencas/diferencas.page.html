@@ -8,64 +8,15 @@
 </ion-header>
 
 <ion-content>
-  <ion-card color="light" class="card_soft">
-    <ion-card-content>
-      <p class="int">
-        Para você que ainda não faz ideia do que é uma Soft Skill,
-        <b>separamos aqui alguns exemplos para você:</b>
-      </p>
-      <ion-accordion-group>
-        <ion-accordion>
-          <ion-item slot="header">
-            <ion-label class="titu">1. Inteligência Emocional</ion-label>
-          </ion-item>
-
-          <ion-list slot="content">
-            <ion-item>
-              A inteligência emocional é a capacidade de reconhecer e lidar com
-              as próprias emoções e com as emoções do outro. Inicialmente,
-              consiste na identificação das emoções por meio de aspectos
-              fisiológicos para posteriormente haver um entendimento mais
-              profundo sobre uma reação, reconhecer emoções não evidentes e, por
-              último, lidar com os próprios sentimentos e com os sentimentos dos
-              outros.
-            </ion-item>
-          </ion-list>
-        </ion-accordion>
-
-        <ion-accordion>
-          <ion-item slot="header">
-            <ion-label class="titu">2. Resiliência</ion-label>
-          </ion-item>
-
-          <ion-list slot="content">
-            <ion-item>
-              A resiliência está muito relacionada à resposta dada pelo
-              indivíduo ao se deparar com situações adversas ou ao ter que tomar
-              uma decisão sob pressão. De modo geral, é a capacidade de lidar
-              com problemas de modo assertivo e se adaptar facilmente.
-            </ion-item>
-          </ion-list>
-        </ion-accordion>
-
-        <ion-accordion>
-          <ion-item slot="header">
-            <ion-label class="titu">3. Comunicação assertiva</ion-label>
-          </ion-item>
-
-          <ion-list slot="content">
-            <ion-item>
-              A comunicação é muito importante em diferentes funções, porém,
-              dependendo da forma como ela é feita pode-se incitar ou apaziguar
-              conflitos. Ao mesmo tempo, se a mensagem não for compreensível
-              podem haver problemas no entendimento de demandas e,
-              consequentemente, nos processos e entregas. Então, para evitar
-              conflitos e também manter uma linearidade nos processos, é
-              importante que haja uma comunicação assertiva dentro dos times.
-            </ion-item>
-          </ion-list>
-        </ion-accordion>
-      </ion-accordion-group>
-    </ion-card-content>
-  </ion-card>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <h1>Slide 1</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 2</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 3</h1>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
